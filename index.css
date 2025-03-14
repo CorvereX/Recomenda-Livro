@@ -1,0 +1,29 @@
+body {
+    color: white;
+    background-color: #190019;
+
+    h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 92px; /*Distância dos pixels*/
+    }
+
+    .retangulo {
+        width: 166px;  /* Largura */
+        height: 256px; /* Altura */
+        background-color: #2B124C;
+        margin-left: 366px;
+    }
+
+    .retangulo2 {
+        width: 166px;
+        height: 256px;
+        background-color: #2B124C;
+        position: absolute;
+        right: 0;  /* Posiciona à direita */
+        margin-right: 366px;
+        top: 136px;
+    }
+
+}
