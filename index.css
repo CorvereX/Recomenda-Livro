@@ -6,12 +6,12 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 92px; /*Distância dos pixels*/
+        margin-top: 92px;
     }
 
     .retangulo {
-        width: 166px;  /* Largura */
-        height: 256px; /* Altura */
+        width: 166px;
+        height: 256px; 
         background-color: #2B124C;
         margin-left: 366px;
     }
@@ -24,6 +24,16 @@ body {
         right: 0;  /* Posiciona à direita */
         margin-right: 366px;
         top: 136px;
+    }
+
+    .plus {
+        position: absolute;
+        top: 220px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 100px;
+        font-weight: bold;
+        color: white;
     }
 
 }
