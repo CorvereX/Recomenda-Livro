@@ -23,7 +23,7 @@ body {
         position: absolute;
         right: 0;  /* Posiciona à direita */
         margin-right: 366px;
-        top: 136px;
+        top: 139px;
     }
 
     .plus {
@@ -36,4 +36,23 @@ body {
         color: white;
     }
 
+ .livro1 {
+    width: 167px;
+    height: 53px; 
+    background-color: white;
+    margin-left: 366px;
+    margin-top: 17px;
+    border-radius: 15px;
+ }
+
+ .livro2 {
+    width: 167px;
+    height: 53px; 
+    background-color: white;
+    position: absolute;
+    right: 0;  /* Posiciona à direita */
+    margin-right: 366px;
+    margin-top: -53px;
+    border-radius: 15px;
+ }
 }
